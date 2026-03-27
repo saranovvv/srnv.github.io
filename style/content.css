@@ -1,3 +1,8 @@
+
+p > a{
+    color: #B153D7;
+}
+
 .content{
     width: 100%;
     z-index: 1;
@@ -7,40 +12,67 @@
     text-align: left;
     width: 50%;
     float: left;
-    font-size: 25px;
+    font-size: 20px;
     color: #3B1E54;
     padding: 2%;
-    height: 700px;
     background-color: #D4BEE4;
     width: 40%;
     margin-left: 5%;
     border-radius: 10px;
+    margin-top: 5%;
 }
 
-.kontener-tekst{
+.o-mnie .kursy {
+    width: 100%;
+}
+
+.omnie-tekst{
     transform: rotate(2deg);
     transition: 0.5s ease-in-out;
-
 }
-.kontener-tekst:hover{
+.omnie-tekst:hover{
     transform: rotate(0);
 }
 
-
-.kontener-zdjecie{
+.omnie-zdjecie{
     text-align: center;
     transform: rotate(-5deg);   
     transition: 1s ease-in-out;
-
 }
-.kontener-zdjecie:hover{
+.omnie-zdjecie:hover{
     transform: rotate(-2deg);
 }
 
-p > a{
-    color: #B153D7;
-}
-.kontener > img {
-    height: 600px;
+.omnie-zdjecie > img {
+    height: 500px;
     border-radius: 15px;
+}
+
+.kursy-tekst{
+    margin-top: 10%;
+    transform: rotate(3deg);
+    transition: 0.5s ease-in-out;
+
+}
+
+.kursy-zdjecie{
+    text-align: center;
+    transition: 0.5s ease-in-out; 
+
+}
+.kursy-zdjecie > img {
+    width: 33.3%;
+    border-radius: 15px;
+    float: left;
+}
+
+.schodki1{
+    margin-right: 66.6%;
+}
+.schodki2{
+    margin-right: 33.3%;
+    margin-left: 33.3%;
+}
+.schodki3{
+    margin-left: 66.6%;
 }
