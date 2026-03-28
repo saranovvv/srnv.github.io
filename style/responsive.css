@@ -1,4 +1,7 @@
 @media screen and (max-width:1025px){
+    .pwrt{
+        display: none;
+    }
     .omnie-tekst .omnie-zdjecie .kursy-tekst .kursy-zdjecie{
         margin: 0;
     }
