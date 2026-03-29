@@ -10,6 +10,9 @@ body{
         height: 100%;
         font-family: "Roboto", sans-serif;
         color: white;
+        display: grid;
+        /* row-gap: 5%; */
+        grid-template-rows: 2fr 3fr;
 }
 
 a{

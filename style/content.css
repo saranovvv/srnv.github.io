@@ -3,15 +3,15 @@ p > a{
     color: #B153D7;
 }
 
-.zdjecie{
-    /* height: 31.25rem; */
-    border-radius: 0.9375rem;
-    width: 100%;
-}
 
 .content{
+    height: auto;
     width: 100%;
     z-index: 1;
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 5%;
+    justify-content: center;
 }
 
 .kontener{
@@ -24,16 +24,16 @@ p > a{
     width: 40%;
     margin-left: 5%;
     border-radius: 0.625rem;
-    margin-top: 5%;
 }
 
-.o-mnie .kursy {
+.o-mnie .kursy .electro {
     width: 100%;
 }
 
 .omnie-tekst{
     transform: rotate(2deg);
     transition: 0.5s ease-in-out;
+    margin-top: 15%;
 }
 .omnie-tekst:hover{
     transform: rotate(0);
@@ -41,6 +41,7 @@ p > a{
 
 .omnie-zdjecie{
     text-align: center;
+    width: 40%;
     transform: rotate(-5deg);   
     transition: 1s ease-in-out;
 }
@@ -49,12 +50,10 @@ p > a{
 }
 
 .kursy-tekst{
-    margin-top: 10%;
     margin-left: 5%;
     transform: rotate(3deg);
     transition: 0.5s ease-in-out;
     float: right;
-    /* float: left; */
     margin-right: 10%;
 }
 .kursy-zdjecie{
@@ -72,8 +71,6 @@ p > a{
 .kursy-zdjecie:hover{
     transform: rotate(0);
 }
-
-
 .kursy-zdjecie > img {
     width: 33.3%;
     border-radius: 0.9375rem;
@@ -91,14 +88,16 @@ p > a{
 }
 
 .electro-tekst{
-    margin-top: 12%;
     transition: ease-in-out 0.7s;
     transform: rotate(2deg);
+    float: left;
 }
 .electro-zdjecie {
     transition: ease-in-out 0.7s;
     text-align: center;
     transform: rotate(-1deg);
+    float: right;
+    margin-right: 5%;
 }
 
 .electro-tekst:hover {
@@ -106,4 +105,10 @@ p > a{
 }
 .electro-zdjecie:hover{
     transform: rotate(0deg);
+}
+
+.zdjecie{
+    border-radius: 0.9375rem;
+    max-width: 100%;
+    height: auto;
 }
