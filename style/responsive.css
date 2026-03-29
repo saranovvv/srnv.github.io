@@ -1,32 +1,24 @@
-@media screen and (max-width:1025px){
+@media screen and (max-width:64.0625rem){
     .pwrt{
         display: none;
     }
-    .omnie-tekst .omnie-zdjecie .kursy-tekst .kursy-zdjecie{
+    .omnie-tekst .omnie-zdjecie .kursy-tekst .kursy-zdjecie .electro-text .electro-zdjecie{
         margin: 0;
     }
-    .omnie-tekst .kursy-tekst{
-        font-size: 10px;
+    .omnie-tekst .kursy-tekst .electro-text{
+        font-size: 0.625rem;
     }
     .kursy-zdjecie .kursy-tekst{
         width: 50%;
     }
     
-    .omnie-zdjecie > img {
-        height: 400px;
-    }
 
     
 }
-@media screen and (max-width:768px){
-    .omnie-zdjecie > img{
-        height: 350px;
-    }
-}
-@media screen and (max-width:600px) {
+@media screen and (max-width:37.5rem) {
    
-    .omnie-tekst .kursy-tekst{
-        font-size: 10px;
+    .omnie-tekst .kursy-tekst .electro-text{
+        font-size: 0.625rem;
     }
     .omnie-tekst{
         margin: 2%;
@@ -49,20 +41,19 @@
         width: auto;
         transform: rotate(-1deg);
     }
-    .omnie-zdjecie > img{width: auto;}
 }
-@media screen and (max-width:430px) {
+@media screen and (max-width:26.875rem) {
     *{
-        font-size: 15px;
+        font-size: 0.9375rem;
     }
     h1{
-        font-size: 18px;
+        font-size: 1.125rem;
     }
     .omnie-zdjecie{
         margin-left: 12%;
     }
-    .omnie-zdjecie > img {
-        height: 350px;
+    .zdjecie {
+        height: 21.875rem;
     }
     .kursy-zdjecie{
         width: 70%;
@@ -70,14 +61,14 @@
 
     }
 }
-@media screen and (max-width:320px){
+@media screen and (max-width:20rem){
    .main-opis{
-    font-size: 12px;
+    font-size: 0.75rem;
    }
     .main-title{
-        font-size: 25px;
+        font-size: 1.5625rem;
     }
-    .omnie-zdjecie > img {
-        height: 250px;
+    .zdjecie {
+        height: 15.625rem;
     }
 }

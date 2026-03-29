@@ -3,6 +3,12 @@ p > a{
     color: #B153D7;
 }
 
+.zdjecie{
+    /* height: 31.25rem; */
+    border-radius: 0.9375rem;
+    width: 100%;
+}
+
 .content{
     width: 100%;
     z-index: 1;
@@ -11,13 +17,13 @@ p > a{
 .kontener{
     text-align: left;
     float: left;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #3B1E54;
     padding: 2%;
     background-color: #D4BEE4;
     width: 40%;
     margin-left: 5%;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     margin-top: 5%;
 }
 
@@ -42,13 +48,8 @@ p > a{
     transform: rotate(-2deg);
 }
 
-.omnie-zdjecie > img {
-    height: 500px;
-    border-radius: 15px;
-}
-
 .kursy-tekst{
-    margin-top: 12%;
+    margin-top: 10%;
     margin-left: 5%;
     transform: rotate(3deg);
     transition: 0.5s ease-in-out;
@@ -75,7 +76,7 @@ p > a{
 
 .kursy-zdjecie > img {
     width: 33.3%;
-    border-radius: 15px;
+    border-radius: 0.9375rem;
     float: left;
 }
 .schodki1{
@@ -87,4 +88,22 @@ p > a{
 }
 .schodki3{
     margin-left: 66.6%;
+}
+
+.electro-tekst{
+    margin-top: 12%;
+    transition: ease-in-out 0.7s;
+    transform: rotate(2deg);
+}
+.electro-zdjecie {
+    transition: ease-in-out 0.7s;
+    text-align: center;
+    transform: rotate(-1deg);
+}
+
+.electro-tekst:hover {
+    transform: rotate(0deg);
+}
+.electro-zdjecie:hover{
+    transform: rotate(0deg);
 }

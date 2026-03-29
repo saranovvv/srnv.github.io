@@ -18,7 +18,7 @@ a{
 }
 
 .space {
-  background: rgba(128, 0, 128, 0.1) center / 200px 200px round;
+  background: rgba(128, 0, 128, 0.1) center / 12.5rem 12.5rem round;
   bottom: 0;
   left: 0;
   position: fixed;
@@ -31,32 +31,32 @@ a{
   animation: space 180s ease-in-out infinite;
   background-image:
     radial-gradient(
-      1px 1px at 25px 5px, 
+      0.0625rem 0.0625rem at 1.5625rem 0.3125rem, 
       white, 
       rgba(255, 255, 255, 0)
     ),
     radial-gradient(
-      1px 1px at 50px 25px, 
+      0.0625rem 0.0625rem at 3.125rem 1.5625rem, 
       white, 
       rgba(255, 255, 255, 0)
     ),
     radial-gradient(
-      1px 1px at 125px 20px, 
+      0.0625rem 0.0625rem at 7.8125rem 1.25rem, 
       white, 
       rgba(255, 255, 255, 0)
     ),
     radial-gradient(
-      1.5px 1.5px at 50px 75px, 
+      0.0938rem 0.0938rem at 3.125rem 4.6875rem, 
       white, 
       rgba(255, 255, 255, 0)
     ),
     radial-gradient(
-      2px 2px at 15px 125px, 
+      0.125rem 0.125rem at 0.9375rem 7.8125rem, 
       white, 
       rgba(255, 255, 255, 0)
     ),
     radial-gradient(
-      2.5px 2.5px at 110px 80px, 
+      0.1563rem 0.1563rem at 6.875rem 5rem, 
       white, 
       rgba(255, 255, 255, 0)
     );
@@ -65,32 +65,32 @@ a{
   animation: space 240s ease-in-out infinite;
   background-image:
     radial-gradient(
-      1px 1px at 75px 125px, 
+      0.0625rem 0.0625rem at 4.6875rem 7.8125rem, 
       white, 
       rgba(255, 255, 255, 0)
     ),
     radial-gradient(
-      1px 1px at 100px 75px, 
+      0.0625rem 0.0625rem at 6.25rem 4.6875rem, 
       white, 
       rgba(255, 255, 255, 0)
     ),
     radial-gradient(
-      1.5px 1.5px at 199px 100px, 
+      0.0938rem 0.0938rem at 12.4375rem 6.25rem, 
       white, 
       rgba(255, 255, 255, 0)
     ),
     radial-gradient(
-      2px 2px at 20px 50px, 
+      0.125rem 0.125rem at 1.25rem 3.125rem, 
       white, 
       rgba(255, 255, 255, 0)
     ),
     radial-gradient(
-      2.5px 2.5px at 100px 5px, 
+      0.1563rem 0.1563rem at 6.25rem 0.3125rem, 
       white, 
       rgba(255, 255, 255, 0)
     ),
     radial-gradient(
-      2.5px 2.5px at 5px 5px, 
+      0.1563rem 0.1563rem at 0.3125rem 0.3125rem, 
       white, 
       rgba(255, 255, 255, 0)
     );
@@ -98,32 +98,32 @@ a{
   animation: space 300s ease-in-out infinite;
   background-image:
     radial-gradient(
-      1px 1px at 10px 10px, 
+      0.0625rem 0.0625rem at 0.625rem 0.625rem, 
       white, 
       rgba(255, 255, 255, 0)
     ),
     radial-gradient(
-      1px 1px at 150px 150px, 
+      0.0625rem 0.0625rem at 9.375rem 9.375rem, 
       white, 
       rgba(255, 255, 255, 0)
     ),
     radial-gradient(
-      1.5px 1.5px at 60px 170px, 
+      0.0938rem 0.0938rem at 3.75rem 10.625rem, 
       white, 
       rgba(255, 255, 255, 0)
     ),
     radial-gradient(
-      1.5px 1.5px at 175px 180px, 
+      0.0938rem 0.0938rem at 10.9375rem 11.25rem, 
       white, 
       rgba(255, 255, 255, 0)
     ),
     radial-gradient(
-      2px 2px at 195px 95px, 
+      0.125rem 0.125rem at 12.1875rem 5.9375rem, 
       white, 
       rgba(255, 255, 255, 0)
     ),
     radial-gradient(
-      2.5px 2.5px at 95px 145px, 
+      0.1563rem 0.1563rem at 5.9375rem 9.0625rem, 
       white, 
       rgba(255, 255, 255, 0)
     );
