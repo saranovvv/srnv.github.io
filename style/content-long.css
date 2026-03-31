@@ -3,9 +3,12 @@
     background-color: #D4BEE4;
     height: 6.25rem;
     float: left;
-    /* margin-top: 2%; */
     margin-left: 1%;
     border-top-left-radius: 0.625rem;    
     border-top-right-radius: 0.625rem;  
     display: grid; 
+    transition: 0.3s linear;
+}
+.content-long h2{
+    text-align: center;
 }
