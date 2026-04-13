@@ -8,6 +8,7 @@
     border-top-right-radius: 0.625rem;  
     display: grid; 
     transition: 0.3s linear;
+    color: #3B1E54;
 }
 .content-long h2{
     text-align: center;
