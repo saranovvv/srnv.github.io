@@ -60,6 +60,11 @@
     .content-long{
         width: 96%;
         margin-left: 2%;
+        grid-template-columns: 0fr 1fr 0fr;
+    }
+    .content-long-tekst{
+        padding: 5%;
+        font-size: 1rem;
     }
     .bot{
         grid-template-columns: 5fr 1fr;
@@ -130,10 +135,14 @@
     }
 
     /* BOT */
-
     .content-long{
         width: 94%;
         margin-left: 3%;
+        grid-template-columns: 0fr 1fr 0fr;
+    }
+    .content-long-tekst{
+        padding: 5%;
+        font-size: 0.9rem;
     }
     .bot-tabela table{
         width: 100%;

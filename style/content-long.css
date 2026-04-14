@@ -34,8 +34,6 @@
     display: none;
 }
 
-
-
 @keyframes smooth {
     from {
       opacity: 0;
@@ -47,7 +45,5 @@
 
 .show{
     animation: smooth 1s ease;
-      grid-template-rows: 0fr;
-  transition: grid-template-rows 0.5s ease;
-  display: grid;
+    display: grid;
 }
