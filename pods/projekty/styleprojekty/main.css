@@ -1,0 +1,16 @@
+.main{
+    background-color: rgba(212, 190, 228, 0.5); 
+    width: 96%;
+    margin-left: 2%;
+    border-radius: 2rem;
+}
+.main-tab button{
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0.875rem 1rem;
+  transition: 0.3s;
+  color: white;
+}
