@@ -1,0 +1,16 @@
+.homelab-tytul{
+    text-align: center;
+    font-size: 3rem;
+}
+.homelab-opis p{
+    margin: 2%;
+}
+.lista{
+    padding-left: 5%;
+}
+.podlista{
+    padding-left: 2%;
+}
+.main-content-tytul{
+    font-size: 2rem;
+}
