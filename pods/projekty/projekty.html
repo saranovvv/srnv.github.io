@@ -51,28 +51,29 @@
                 <div class="homelab-opis">
                     <p>
                         Projekt <b>HomeLab</b> opiera się na postawieniu oraz zarządzaniu lokalną siecią Internetową w moim domu. Celem tego jest zdobycie doświadczenia we wprowadzaniu oraz administracji systemami operacyjnymi oraz systemami operacyjnymi sieciowymi.
+
                     </p>
                     <p>
-                        Główne założenia:
+                        <span class="main-content-tytul"><b>Główne założenia</b></span>
                         <ul class="lista">
                                 <li>
-                                    Usługi:
+                                    <b>Usługi</b>
                                     <ul class="podlista">
                                         <li>DHCP</li>
                                         <li>DNS</li>
                                         <li>Reverse Proxy</li>
                                     </ul>
                                 </li>
-                                <li>
-                                    Serwery:
+                                <li class="lista-margin">
+                                    <b>Serwery:</b>
                                     <ul class="podlista">
                                         <li>Jellyfin Media Server</li>
                                         <li>TrueNAS Server</li>
                                         <li>Minecraft Server</li>
                                     </ul>
                                 </li>
-                                <li>
-                                    Topologia sieciowa zależna od infrastruktury domowej:
+                                <li class="lista-margin">
+                                    <b>Topologia sieciowa zależna od infrastrukty domowej</b>
                                     <ul class="podlista">
                                         <li>Podział na vlany</li>
                                         <li>Dostęp do zasobów</li>
@@ -81,10 +82,129 @@
                         </ul>
                     </p> <br>
                     <p>
-                        <span class="main-content-tytul">Opis</span> <br>
+                        <span class="main-content-tytul"><b>Opis</b></span> <br>
                         Jednym z głównych celów stworzenia swojego własnego HomeLab'u jest zdobycie doświadczenia w prowadzeniu oraz administracji siecią. Dodatkowym atutem jest możliwość uniezależnienia się od możliwie jak największej ilości subskrypcji. 
                         Na ten moment posiadam dwa urządzenia, gdzie każdy ma osobne zadania do wykonywania. Ich zastosowanie jest opisane niżej. Oprócz kontroli urządzeń sieciowych, sam zaprojektowałem oraz zainstalowałem lokalną instalację sieciową. 
+                    </p><br>
+                    <p>
+                        <span class="main-content-tytul"><b>Urządzenia</b></span>
+                        <ul class="lista">
+                            <li><b>Główny serwer</b>
+                            <ul class="podlista">
+                                <li>Początkowo główny serwer był moim komputerem do pracy, ale odkąd kupiłem nowy, tamten przeznaczyłem do projektu</li>
+                                <li>
+                                    Systemy operacyjne (wirtaulizacja za pomocą PROXMOX):
+                                    <ul class="podlista" style="list-style-type: '> ';">
+                                        <li>
+                                            Ubuntu Server 24.04.4 LTS x86_64
+                                        </li>
+                                        <li>
+                                            Windows Server 2025
+                                        </li>
+                                        <li>
+                                            TrueNAS (testowo)
+                                        </li>
+                                        <li>
+                                            Pi-hole (testowo)
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Podzespoły:
+                                    <ul class="podlista" style="list-style-type: '> ';">
+                                        <li>CPU: Intel i5-9400F (6) 4.1Ghz </li>
+                                        <li>GPU: NVIDIA GeForce RTX 2060</li>
+                                        <li>RAM: 2x8GB 2667 MT/s DDR4</li>
+                                        <li>Dysk 1: Intel SSDPEKNW512G8 512GB</li>
+                                        <li>Dysk 2: Samsung SSD 870 500GB</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Aplikacje:
+                                    <ul class="podlista" style="list-style-type: '> ';">
+                                        <li>Jellyfin</li>
+                                        <li>Minecraft Server</li>
+                                        <li>Ngrok</li>
+                                        <li>Active Directory</li>
+                                        <li>Serwer plików Windows</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Opis:
+                                    <ul class="podlista" style="list-style-type: '> ';">
+                                        <li>
+                                            Za pomocą wirtualizacji systemów PROXMOX, jestem w stanie posiadać na jednym urzadzeniu kilka systemów działających równocześnie. 
+                                            Dzięki temu mogę każdą moją zmianę testować przed jej wprowadzeniem przy użyciu innych wirtualnych maszyn.
+                                        </li>
+                                        <li>
+                                            Większość aplikacji działa na Ubuntu, są to: Jellyfin (lokalny serwer z filmami oraz serialami), Minecraft Server (serwer do gry Minecraft) oraz ngrok (tunele umożliwiające połączenie z zewnętrznymi urządzeniami). System ten jest o wiele wydajniejszy od konkurenta i w mojej ocenie łatwiej się z niego korzysta.
+                                        </li>
+                                        <li>
+                                            Windows Server 2025 stosuję głównie do nauki Active Directory. Jest to prosty system kontroli, który implementuje wiele firm. Wykorzystuję go również jako serwer plików, jednak aktualnie testuję TrueNAS i mam zamiar mianować go głównym serwerem plików. 
 
+                                        </li>
+                                        <li>
+                                            PiHole technicznie rzecz biorąc jest AdBlockerem działającym na Ubuntu, jednak możliwe jest również używanie go jako serwera DNS. Prowadzę testy na tym serwerze, żeby w przyszłości po nabyciu RaspberryPI przenieść wdrożyć ten system na osobną maszynę.
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            </li>
+                            <li class="lista-margin">
+                                <b>Terminal Dell Wyse 5070 Thin Client</b>
+                                <ul class="podlista">
+                                    <li>Terminal komputerowy działający jako serwer DHCP, serwer DNS oraz Reverse Proxy</li>
+                                    <li>System operacyjny:
+                                        <ul class="podlista" style="list-style-type: '> ';">
+                                            <li>
+                                            Ubuntu Server 20.04 LTS
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        Podzespoły:
+                                        <ul class="podlista" style="list-style-type: '> ';">
+                                            <li>CPU: Intel Celeron J4105 (4) 1.5GHz do 2.5Ghz</li>
+                                            <li>RAM: 4GB DDR4</li>
+                                            <li>Dysk: 32GB</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        Usługi oraz ich zadania:
+                                        <ul class="podlista" style="list-style-type: '> ';">
+                                            <li>DHCP: isc-dhcp-server
+                                                <ul class="podlista" style="list-style-type: '- ';">
+                                                    <li>
+                                                        Automatyczne przydzielanie adresów IPv4
+                                                    </li>
+                                                    <li>
+                                                        Rezerwacja adresów IPv4
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>DNS: bind9
+                                                <ul class="podlista" style="list-style-type: '- ';">
+                                                    <li>
+                                                        Domena głównego serwa
+                                                    </li>
+                                                    <li>
+                                                        Domena głównego komputera
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>Reverse Proxy: Caddy
+                                                <ul class="podlista" style="list-style-type: '- ';">
+                                                    <li>
+                                                        Odbijanie połączeń do odpowiednich portów
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
                     </p><br>
                 </div>
             </div>
