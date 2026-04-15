@@ -1,0 +1,16 @@
+.top-link{
+    text-align: center;
+    width: 100%;
+    font-size: clamp(1.375rem, 2vw, 4rem);
+    padding: 3%;
+    display: -ms-inline-grid;
+}
+.top-link > a{
+    /* margin: 2%; */
+    margin-left: 4%;
+}
+.top-tytul{
+    text-align: center;
+}
+
+
